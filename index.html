@@ -87,53 +87,45 @@
           <p>Value Added Assets LLC provides appraisal and consulting services for properties located in Oregon, Washington, Idaho, and Texas, with Certified General Appraiser licenses also held in California and Utah.</p>
           <address>4804 NW Bethany Blvd., Suite I-2<br>Portland, OR 97229</address>
         </div>
-        <div class="market-map" aria-label="Topographic United States service and license map">
-          <svg class="west-map topo-map" viewBox="0 0 900 560" role="img" aria-labelledby="map-title map-desc">
-            <title id="map-title">Topographic United States map with highlighted service states</title>
-            <desc id="map-desc">United States territory map highlighting Oregon, Washington, California, Idaho, Utah, and Texas.</desc>
-            <defs>
-              <linearGradient id="terrain" x1="0" y1="0" x2="1" y2="1">
-                <stop offset="0" stop-color="#eef3ef"/>
-                <stop offset="0.52" stop-color="#dce7e1"/>
-                <stop offset="1" stop-color="#f7f5ef"/>
-              </linearGradient>
-            </defs>
-            <rect class="map-water" x="0" y="0" width="900" height="560"/>
-            <path class="usa-land" d="M105 112L191 89L285 96L393 89L512 103L635 113L760 139L826 193L797 258L823 322L775 391L706 421L640 470L548 461L472 441L372 462L280 435L206 459L142 410L108 327L74 267L88 191Z"/>
-            <g class="topo-lines">
-              <path d="M55 155C148 126 230 133 318 151C421 172 501 149 604 154C706 159 785 186 850 228"/>
-              <path d="M70 218C161 196 238 205 326 226C435 252 520 226 629 232C726 237 790 272 838 316"/>
-              <path d="M75 288C174 262 256 271 348 296C446 322 550 299 656 318C731 331 785 359 828 405"/>
-              <path d="M118 367C214 337 296 349 390 371C497 396 577 379 674 399C725 410 764 430 801 463"/>
-              <path d="M164 116C126 191 119 274 157 361C183 421 230 459 291 488"/>
-              <path d="M304 104C267 174 264 252 299 326C335 402 395 449 464 482"/>
-              <path d="M478 101C440 165 431 236 461 309C498 399 571 434 646 468"/>
+        <div class="market-map vintage-map" aria-label="Western appraisal coverage map">
+          <svg class="west-map vintage-coverage-map" viewBox="0 0 900 560" role="img" aria-labelledby="map-title map-desc">
+            <title id="map-title">Western appraisal coverage map</title>
+            <desc id="map-desc">Vintage style regional map listing Washington, Oregon, California, Idaho, Utah, and Texas.</desc>
+            <rect class="vintage-water" x="0" y="0" width="900" height="560"/>
+            <path class="mountain one" d="M370 470L520 104L682 470Z"/>
+            <path class="mountain two" d="M272 470L421 158L552 470Z"/>
+            <path class="mountain three" d="M474 470L640 176L805 470Z"/>
+            <g class="map-title-block">
+              <text x="48" y="118">WESTERN</text>
+              <text x="48" y="190">COVERAGE</text>
+              <text class="map-subtitle" x="52" y="252">Commercial appraisal services</text>
+              <text class="map-subtitle small" x="52" y="288">Licensing footprint and service territories</text>
             </g>
-            <g class="state-grid">
-              <path class="service-state" d="M118 125L224 107L216 169L100 177L88 151Z"/>
-              <path class="service-state" d="M100 177L216 169L207 254L79 258L84 210Z"/>
-              <path class="service-state" d="M79 258L207 254L188 442L143 411L109 329L74 268Z"/>
-              <path class="service-state" d="M216 109L319 113L313 236L207 254L216 169Z"/>
-              <path class="service-state" d="M336 308L461 308L448 424L326 430Z"/>
-              <path class="service-state texas" d="M547 371L649 366L758 397L804 454L771 503L698 492L649 522L591 482L529 484L492 430Z"/>
-              <path class="other-state" d="M319 113L430 111L428 229L313 236Z"/>
-              <path class="other-state" d="M428 229L538 236L526 348L461 308L336 308L313 236Z"/>
-              <path class="other-state" d="M538 236L650 252L649 366L547 371L526 348Z"/>
-              <path class="other-state" d="M650 252L775 283L758 397L649 366Z"/>
-              <path class="other-state" d="M430 111L547 119L538 236L428 229Z"/>
-              <path class="other-state" d="M547 119L672 134L650 252L538 236Z"/>
-              <path class="other-state" d="M672 134L804 186L775 283L650 252Z"/>
+            <path class="west-coast-shadow" d="M555 28L840 89L807 169L819 219L772 267L765 336L719 402L701 504L475 448L501 353L482 302L516 235L527 160L505 99Z"/>
+            <g class="state-panels">
+              <path class="coverage-state west" d="M568 34L838 91L806 168L672 158L608 122L586 76Z"/>
+              <path class="coverage-state west" d="M608 122L672 158L806 168L818 218L772 267L647 250L566 214Z"/>
+              <path class="coverage-state west" d="M566 214L647 250L772 267L765 336L719 402L520 356L493 303L519 246Z"/>
+              <path class="coverage-state inland" d="M672 158L806 168L772 267L647 250Z"/>
+              <path class="coverage-state inland" d="M647 250L765 336L719 402L610 372Z"/>
+              <path class="coverage-state texas" d="M548 386L682 400L796 454L778 520L690 505L632 532L576 498L510 506L482 448Z"/>
             </g>
-            <g class="map-labels">
-              <text x="158" y="147">WA</text>
-              <text x="151" y="220">OR</text>
-              <text x="137" y="356">CA</text>
-              <text x="264" y="178">ID</text>
-              <text x="394" y="373">UT</text>
-              <text x="650" y="442">TX</text>
+            <g class="vintage-labels">
+              <text x="706" y="117">WASHINGTON</text>
+              <text x="682" y="214">OREGON</text>
+              <text x="617" y="325">CALIFORNIA</text>
+              <text x="736" y="226">IDAHO</text>
+              <text x="670" y="342">UTAH</text>
+              <text x="640" y="466">TEXAS</text>
             </g>
-            <circle class="office-dot" cx="147" cy="206" r="5"/>
-            <text class="office-label" x="162" y="204">Portland office</text>
+            <g class="city-labels">
+              <text x="640" y="89">* Olympia</text>
+              <text x="595" y="181">* Salem</text>
+              <text x="548" y="268">* Sacramento</text>
+              <text x="626" y="302">* Salt Lake City</text>
+              <text x="610" y="438">* Austin</text>
+            </g>
+            <path class="coastline" d="M568 34L555 82L588 124L566 214L519 246L493 303L520 356L482 448"/>
           </svg>
           <div class="map-legend">
             <strong>Highlighted licensing footprint</strong>
